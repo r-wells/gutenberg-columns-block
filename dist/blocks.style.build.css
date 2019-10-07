@@ -1,0 +1,66 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+.wp-block-cgb-block-my-new-blocks {
+  background: orangered;
+  border: 0.2rem solid #292929;
+  color: #292929;
+  margin: 0 auto;
+  max-width: 740px;
+  padding: 2rem; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.wp-block-cgb-secondblock {
+  background-color: #524d5b;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px; }
+  .wp-block-cgb-secondblock.is-style-squared {
+    border-radius: 0px; }
+  .wp-block-cgb-secondblock.is-style-outline {
+    border-radius: 0px;
+    border: 2px solid currentColor; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.wp-block-mytheme-blocks-team-member {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+  .wp-block-mytheme-blocks-team-member.has-1-columns .wp-block-mytheme-blocks-team-member {
+    width: 100% /1; }
+  .wp-block-mytheme-blocks-team-member.has-2-columns .wp-block-mytheme-blocks-team-member {
+    width: 100% /2; }
+  .wp-block-mytheme-blocks-team-member.has-3-columns .wp-block-mytheme-blocks-team-member {
+    width: 100% /3; }
+  .wp-block-mytheme-blocks-team-member.has-4-columns .wp-block-mytheme-blocks-team-member {
+    width: 100% /4; }
+  .wp-block-mytheme-blocks-team-member.has-5-columns .wp-block-mytheme-blocks-team-member {
+    width: 100% /5; }
+  .wp-block-mytheme-blocks-team-member.has-6-columns .wp-block-mytheme-blocks-team-member {
+    width: 100% /6; }
+  .wp-block-mytheme-blocks-team-member .wp-block-mytheme-blocks-team-member__title {
+    color: #222;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0; }
+  .wp-block-mytheme-blocks-team-member .wp-block-mytheme-blocks-team-member__info {
+    color: #565656;
+    font-weight: 300;
+    margin-bottom: 5px; }
